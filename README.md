@@ -16,7 +16,9 @@ The script as part of this project was created to:
 2)Extract only the measurements on the mean and standard deviation for each measurement.                                                  3)Introduce and add descriptive activity names to name the activities in the dataset, and appropriately label the data set with descriptive variable names.     
 4)And finally, creat a new tidy dataset with only the average of each variable for each activity and each subject. 
 
-At the end of this project and after running the "run_analysis.R" script you will have a new .txt file named "tidydataset.txt" with the average of each of the mean and standard deviation variables, for each subject/participant in the study (n=30), and each activity (
+At the end of this project and after running the "run_analysis.R" script you will have a new .txt file named "tidydataset.txt" with the average of each of the mean and standard deviation variables, for each subject/participant in the study (n=30), and each activity ("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"). 
+
+The means and standard deviations in this projects represent time and frequency data collected from accelerometer and a gyroscope. For more information, please see the README.txt file that is downloaded from the link above.
 
 ### Prerequisites/Other Notes
 
