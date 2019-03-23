@@ -37,7 +37,7 @@ The script for this project runs tests (glimpse, colnames, etc. to check data tr
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Please note that the script for this project exports a .txt file but also a .csv excel file (which was not required of the project).
 
 ## Built With
 
