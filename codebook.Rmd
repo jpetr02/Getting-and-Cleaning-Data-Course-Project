@@ -276,27 +276,11 @@ Min. and max.                -0.98; 0.42
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-9-timeBodyGyroMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 
-7L, 42L, 28L, 11L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "timeBodyGyroMagmean")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## timeBodyGyroMagstd
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Body Gyrometer Magnetic - Standard Deviationn Time (in seconds) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -315,27 +299,11 @@ Min. and max.                 -0.98; 0.3
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-10-timeBodyGyroMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 32L, 38L, 
-    14L, 2L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "timeBodyGyroMagstd")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## timeBodyGyroJerkMagmean
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Body Magnetic Acceleration Gyro Jerk Magnetic - Mean Time (in seconds) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -354,28 +322,11 @@ Min. and max.                   -1; 0.09
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-11-timeBodyGyroJerkMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 6L, 19L, 26L, 
-16L, 12L, 4L, 3L, 2L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "timeBodyGyroJerkMagmean")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## timeBodyGyroJerkMagstd
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Body Gyro Jerk Magnetic  - Standard Deviationn (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -394,28 +345,11 @@ Min. and max.                   -1; 0.25
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-12-timeBodyGyroJerkMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-3L, 15L, 20L, 21L, 14L, 5L, 5L, 3L, 2L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "timeBodyGyroJerkMagstd")
-```
-</div>
-</div>
-
-
-
-
----
+--
 
 ## freqBodyAccMagmean
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -433,28 +367,9 @@ Median                             -0.67
 Min. and max.                -0.99; 0.59
 ----------------------------------------
 
-
-</div>
-<div class = "col-lg-4">
-```{r 'Var-13-freqBodyAccMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-10L, 31L, 22L, 16L, 9L, 2L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "freqBodyAccMagmean")
-```
-</div>
-</div>
-
-
-
-
 ---
 
-## freqBodyAccMagstd
-
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -473,28 +388,12 @@ Min. and max.                -0.99; 0.18
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-14-freqBodyAccMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(82L, 6L, 1L, 3L, 13L, 
-20L, 20L, 8L, 8L, 9L, 7L, 3L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "freqBodyAccMagstd")
-```
-</div>
-</div>
 
-
-
-
----
 
 ## freqBodyBodyAccJerkMagmean
 
-<div class = "row">
-<div class = "col-lg-8">
+
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -512,28 +411,11 @@ Median                             -0.79
 Min. and max.                -0.99; 0.54
 ----------------------------------------
 
-
-</div>
-<div class = "col-lg-4">
-```{r 'Var-15-freqBodyBodyAccJerkMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 
-16L, 25L, 26L, 17L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "freqBodyBodyAccJerkMagmean")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## freqBodyBodyAccJerkMagstd
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -552,27 +434,11 @@ Min. and max.                -0.99; 0.32
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-16-freqBodyBodyAccJerkMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 25L, 22L, 
-    27L, 12L, 3L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "freqBodyBodyAccJerkMagstd")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## freqBodyBodyGyroMagmean
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -590,29 +456,11 @@ Median                             -0.77
 Min. and max.                 -0.99; 0.2
 ----------------------------------------
 
-
-</div>
-<div class = "col-lg-4">
-```{r 'Var-17-freqBodyBodyGyroMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(88L, 
-2L, 0L, 8L, 20L, 18L, 22L, 9L, 4L, 5L, 1L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "freqBodyBodyGyroMagmean")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## freqBodyBodyGyroMagstd
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -631,28 +479,11 @@ Min. and max.                -0.98; 0.24
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-18-freqBodyBodyGyroMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(80L, 
-10L, 1L, 6L, 18L, 24L, 23L, 7L, 7L, 2L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "freqBodyBodyGyroMagstd")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 ## freqBodyBodyGyroJerkMagmean
 
-<div class = "row">
-<div class = "col-lg-8">
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ----------------------------------------
 Feature                           Result
@@ -671,21 +502,8 @@ Min. and max.                   -1; 0.15
 ----------------------------------------
 
 
-</div>
-<div class = "col-lg-4">
-```{r 'Var-19-freqBodyBodyGyroJerkMagmean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 15L, 22L, 
-18L, 15L, 6L, 5L, 4L, 1L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "freqBodyBodyGyroJerkMagmean")
-```
-</div>
-</div>
 
-
-
+Description: Frequency of Body Acceleration Magnetic  - Mean (in gravitational units) / per subject
 
 ---
 
@@ -710,29 +528,13 @@ Median                             -0.89
 Min. and max.                   -1; 0.29
 ----------------------------------------
 
-
-</div>
-<div class = "col-lg-4">
-```{r 'Var-20-freqBodyBodyGyroJerkMagstd', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(94L, 41L, 29L, 10L, 
-    5L, 0L, 1L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "freqBodyBodyGyroJerkMagstd")
-```
-</div>
-</div>
-
-
-
-
 ---
 
 
 
 Report generation information:
 
- *  Created by jpetro2 (username: `Jason`).
+ *  Created by jpetro2 ().
 
  *  Report creation time: Sat Mar 23 2019 12:41:55
 
